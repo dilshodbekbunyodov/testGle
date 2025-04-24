@@ -1,0 +1,40 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    /*width: 100vw;*/
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.sidebar nav ul li a.active {
+    background-color: #007bff;
+    color: white;
+}
